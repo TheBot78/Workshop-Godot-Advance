@@ -3,7 +3,7 @@
 # Workshop Jumper en 2D sur Godot
 ## Introduction
 
-> Pour ce workshop nous prenons en compte que le premier à déjà était réalisé et allons voir quelque bonus à rajouter pour votre plateformeur par odre de difficulté
+> Pour ce workshop nous considérons que le premier à déjà était réalisé et allons voir quelque bonus à rajouter pour votre plateformeur par odre de difficulté
 https://github.com/TheBot78/WorkShop-Godot
 
 __N'oubliez pas google, la documentation et les encadrants sont la pour vous aider__
