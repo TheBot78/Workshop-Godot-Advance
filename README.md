@@ -1,51 +1,57 @@
-# WorkShop-Godot
+# WorkShop-Godot 2
 
-# Workshop Jumper en 2D sur Godot
+# Un platformer avancé en 2D sur Godot
 ## Introduction
 
-> Pour ce workshop nous considérons que le premier à déjà était réalisé et allons voir quelque bonus à rajouter pour votre plateformeur par odre de difficulté
+Pour ce workshop nous considérons que le premier a déjà été réalisé et nous allons voir quelques features à rajouter pour votre plateformer, triées odre difficulté.
+Si vous n'avez pas encore fait le premier workshop, voici le lien :
 https://github.com/TheBot78/WorkShop-Godot
 
-__N'oubliez pas google, la documentation et les encadrants sont la pour vous aider__
+__N'oubliez pas google, la documentation et les encadrants sont la pour vous aider !__
 
-## Ajout d'ennemis 
+## Features faciles
+Nous allons voir si vous maîtrisez ce que vous avez fait dans le premier workshop.
 
-# Un simple obstacle 
-penser simple des piques, de la lave/eau ou encore un cactus amusez vous
-> N'oubliez pas comment marche la collision du joueur
-# Un marcheur
-Un ennemi plûtot simple à reproduire est celui du gomomba dans mario un simple mais efficace ennemi des platformeur
+### - L'ajout d'un sprint -
+Permettez au joueur de crourir en appuyant sur une touche.
 
-# Et pourquoi pas un tireur
-Faite donc un ennemi qui tire. Simple tire ou à trajectoire variable à vous de choisir
-> Conseille faite le projectile en tant que node pour le réutiliser a votre guise 
+### - Un double saut -
+Propulser votre joueur automatiquement ou faites lui aller plus haut.
 
-## Revisité son monde
+### - Musique d'ambiance -
+Rajoutez une musique d'ambiance à votre monde.
 
-# Sa Glisse
-N'oubliez pas que l'outil de tile peut être utile pour faire que chaque case et un ajout en plus comme de la glace ?
+## Features moyennes
+Rien de bien compliqué, mais quelques recherches seront nécessaires.
 
-# Un jumpeur
-Propulser votre joueur automatiquement ou faites lui aller plus haut
+### - Un piège -
+Pensez simple : des piques, de la lave ou même un cactus.
+> n'oubliez pas comment fonctionne la collision du joueur.
 
-#Séparation
+### - Un ennemi qui marche (et attaque) -
+Un ennemi plûtot simple à reproduire est celui du goomba dans mario. Simple mais efficace.
+
+### - Des niveaux différents -
 Il est peut-être temps de faire des niveaux différent et de faire des transitions entre ces niveaux
-> Conseille faite chaque niveau en tant que node pour vous facilité cette tâche
+> créez une scène différente pour chaque niveau.
 
-## Musique maestro
-# Musique d'ambiance
-  rajouter une musique d'ambiance à votre monde chercher dans les nodes et vous trouverez surement votre plaisir
+### - Sa Glisse -
+L'outil de tilemap peut permettre de faire en sorte que certaines tiles agissent différemment. Essayez d'ajouter de la glace qui fait glisser le joueur (et les ennemis si vous en avez).
 
-# Bruitage d'ennemi
-  Sur votre ennemi rajouter un bruit qui le suit lui ou son projectile
-# Vos tuiles font du bruit ?
-  Si votre bloque glisse ou fait sauter votre joueur celui devrait avoir un indication auditive
+### - Ambiance sonore -
+Quand le joueur ou une autre entité du monde fait une action (marcher, attaquer, sauter...), ajoutez y un son.
 
-## Votre joueur et plus
-# Sautez encore plus
-  L'ajout d'un double jump pour des niveaux complexe peut être intéressant
-# L'ajout d'un sprint 
-  Pensez à modifier peut-être votre facon de jump
+### - Un planeur -
+Pas besoin de s'embêter à changer le visuel, faites simplement en sorte qu'en appuyant sur une touche le joueur puisse planer.
 
-## Maintenant un menu pour ce beau jeu
-Maintenant vous maitrisez surement les bases pour faire un plateformer avancer mais pour acceder à votre il vous faut peut un menu, vous êtes libre de rajouter d'autres bonus à votre jeu !
+## Features difficiles
+Si vous réussissez ce qui suit, la game jam devrait être facile.
+
+### - Un joueur qui tire -
+Donnez la capacité au joueur de tirer sur des ennemis.
+> créez une scène pour le projectile.
+
+### - Un menu pour ce beau jeu -
+Maintenant vous maitrisez surement les bases pour faire un plateformer avancé, mais pour acceder à votre jeu, il vous faut peut un menu.
+
+## Si vous avez tout réussi... faites plus (des cinématiques, du multijoueur, du rtx, des micro-transactions !)
